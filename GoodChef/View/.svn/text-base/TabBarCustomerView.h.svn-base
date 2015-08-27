@@ -1,0 +1,31 @@
+//
+//  TabBarCustomerView.h
+//  GoodChef
+//
+//  Created by Mac on 15-5-26.
+//  Copyright (c) 2015年 Mac. All rights reserved.
+//
+
+#import "GCParentView.h"
+@protocol TabBardelegate <NSObject>
+/**
+ *  @param from 从哪个视图(视图索引)
+ *  @param to   到哪个视图(视图索引)
+ */
+- (void)tabBarDidSelectBtnFrom:(NSInteger)from to:(NSInteger)to;
+
+@end
+
+@interface TabBarCustomerView : GCParentView
+
+@property (nonatomic,weak) id<TabBardelegate> delegate;
+
+/**
+ *  提供给外界创建按钮
+ *
+ *  @param norName 默认状态的图片
+ *  @param disName 高亮的图片
+ */
+- (void)addTabBarButtonWithNormalImageName:(NSString *)norName andDisableImageName:(NSString *)disName;
+
+@end

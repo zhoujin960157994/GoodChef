@@ -1,0 +1,10 @@
+1.----登录功能实现
+2.----厨师详情页面
+3.----点菜菜单页面
+7.----推送的功能
+8.----第三方登陆
+9.----MJrefrsh使用
+10.---地理定位使用
+11.---删除缓存(沙盒路径)
+12.---SdWebImage使用
+$(PROJECT_DIR)/GoodChef/Libs/umeng/UMSocial_Sdk_Extra_Frameworks/Whatsapp

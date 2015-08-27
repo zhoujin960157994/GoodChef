@@ -1,0 +1,32 @@
+//
+//  GCUserModel.h
+//  GoodChef
+//
+//  Created by Mac on 15-5-26.
+//  Copyright (c) 2015年 Mac. All rights reserved.
+//
+
+#import "GCParentModel.h"
+#import "GCAddressEntityModel.h"
+
+@interface GCUserModel : GCParentModel
+
+/**
+ *  用户信息model
+ */
+
+@property (nonatomic,copy) NSString *password;// null,
+@property (nonatomic,copy) NSString *phone;//  13507920648,
+@property (nonatomic,copy) NSString *userType;//  0,
+@property (nonatomic,copy) NSString *userId;//  24758,
+@property (nonatomic,copy) NSString *name;//  好厨师,
+@property (nonatomic,copy) NSString *money;//  null,
+@property (nonatomic,strong) GCAddressEntityModel  *AddressEntity;//  {
+
+
+@property (nonatomic,copy) NSString *orderChange;//  0,
+@property (nonatomic,copy) NSString *countOrder;//  0,
+@property (nonatomic,copy) NSString *countCoupon;// 0,
+@property (nonatomic,copy) NSString *activityChange;// 0
+
+@end

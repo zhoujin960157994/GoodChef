@@ -1,0 +1,34 @@
+//
+//  GCOrderEntityModel.h
+//  GoodChef
+//
+//  Created by Mac on 15-5-26.
+//  Copyright (c) 2015年 Mac. All rights reserved.
+//
+
+#import "GCParentModel.h"
+#import "ChefMenuEntityModel.h"
+#import "ChefModel.h"
+#import "GCAddressEntityModel.h"
+#import "GCComboEntityModel.h"
+
+@interface GCOrderEntityModel :  GCParentModel
+
+@property (nonatomic,copy) NSString *orderId; // 07551432651363149,
+@property (nonatomic,copy) NSString *orderStatus; // 0,
+@property (nonatomic,copy) NSString *orderPrice; // 79,
+@property (nonatomic,copy) NSString *payType; // W,
+@property (nonatomic,copy) NSString *isFood; // 0,
+@property (nonatomic,copy) NSString *chooseFoodType; // 2,
+@property (nonatomic,strong) GCComboEntityModel *ComboEntity; // {},
+
+@property (nonatomic,strong) ChefModel *ChefEntity; // {},
+@property (nonatomic,strong) GCAddressEntityModel *AddressEntity; // {},
+@property (nonatomic,copy) NSString *createTime; // 2015-05-26 22; //42; //43,
+@property (nonatomic,copy) NSString *orderTime; // 2015-05-27 12; //00; //00,
+@property (nonatomic,strong) NSMutableArray *greensName; // [],
+@property (nonatomic,copy) NSString *isComment; // 0,
+@property (nonatomic,copy) NSString *additional_1; // ,
+@property (nonatomic,copy) NSString *additional_2; // ,
+@property (nonatomic,copy) NSString *additional_3; // 
+@end

@@ -1,0 +1,26 @@
+//
+//  GCComboEntityModel.h
+//  GoodChef
+//
+//  Created by Mac on 15-5-26.
+//  Copyright (c) 2015年 Mac. All rights reserved.
+//
+
+#import "GCParentModel.h"
+
+@interface GCComboEntityModel : GCParentModel
+/**
+ *  订单信息 model
+ */
+
+@property (nonatomic,copy) NSString *comboId;//	:	1
+
+@property (nonatomic,copy) NSString *comboName;//	:	四菜一汤
+
+@property (nonatomic,copy) NSString *comboNum;//	:	4-6
+
+@property (nonatomic,copy) NSString *comboPrice;//	:	79
+
+@property (nonatomic,copy) NSString *combodescription;//	:	经济实惠
+
+@end

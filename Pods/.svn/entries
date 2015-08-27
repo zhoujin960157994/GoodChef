@@ -1,0 +1,92 @@
+10
+
+dir
+54
+svn://student6@10.2.156.133/student6/student6/Pods
+svn://student6@10.2.156.133/student6
+
+
+
+2015-05-27T04:00:18.080984Z
+54
+student6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+829fa6a4-5f5f-4807-9676-fd99ade74b58
+
+RegexKitLite
+dir
+
+Pods.xcodeproj
+dir
+
+MBProgressHUD
+dir
+
+MJRefresh
+dir
+
+Target Support Files
+dir
+
+SDWebImage
+dir
+
+FMDB
+dir
+
+Headers
+dir
+
+Local Podspecs
+dir
+
+Manifest.lock
+file
+
+
+
+
+2015-05-27T04:00:59.000000Z
+552b6a0f5a893a1ddc764290ec079446
+2015-05-27T04:00:18.080984Z
+54
+student6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1551
+
+AFNetworking
+dir
+

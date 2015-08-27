@@ -1,0 +1,22 @@
+//
+//  CommentEntity.h
+//  GoodChef
+//
+//  Created by Mac on 15-5-26.
+//  Copyright (c) 2015年 Mac. All rights reserved.
+//
+
+#import "GCParentModel.h"
+
+@interface CommentEntity : GCParentModel
+
+//这是评论数据的模型
+@property (nonatomic,strong) NSString *userName; // 王,
+@property (nonatomic,strong) NSString *orderId; // 07551432513687678,
+@property (nonatomic,strong) NSString *phone; // 137*******00,
+@property (nonatomic,strong) NSString *score; // 5,
+@property (nonatomic,strong) NSMutableArray *source; // [],
+@property (nonatomic,strong) NSString *content; // 不错，味道很好，家人喜欢,
+@property (nonatomic,strong) NSString *commentTime; // 2015-05-25 13:18:33,
+@property (nonatomic,strong) NSString *isVip; // 1
+@end

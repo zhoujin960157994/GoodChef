@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B07088CA-6029-4D0C-94C5-85674CD47621</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GoodChef</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8799FDE0-F29F-4A05-BD19-D5AE12FF58DB</key>
+		<string>svn://10.2.156.133/student6</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GoodChef.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8799FDE0-F29F-4A05-BD19-D5AE12FF58DB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>8799FDE0-F29F-4A05-BD19-D5AE12FF58DB</key>
+		<string>svn://10.2.156.133/student6</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://10.2.156.133/student6/GoodChef.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8799FDE0-F29F-4A05-BD19-D5AE12FF58DB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8799FDE0-F29F-4A05-BD19-D5AE12FF58DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>student6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

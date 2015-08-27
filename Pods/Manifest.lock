@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CHTCollectionViewWaterfallLayout (0.9.1)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - MJExtension (2.1.1)
+  - MJRefresh (1.4.7)
+  - PPHelpMe (1.0.2)
+  - PPRevealSideViewController (1.2.0):
+    - PPHelpMe
+  - RDVTabBarController (1.1.9)
+  - Reachability (3.2)
+  - RegexKitLite (4.0)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.3)
+  - CHTCollectionViewWaterfallLayout (~> 0.9.1)
+  - FMDB (~> 2.3)
+  - Masonry (~> 0.6.1)
+  - MBProgressHUD (~> 0.9.1)
+  - MJExtension (~> 2.1.0)
+  - MJRefresh (~> 1.4.6)
+  - PPRevealSideViewController (~> 1.2.0)
+  - RDVTabBarController (~> 1.1.9)
+  - Reachability (~> 3.2)
+  - RegexKitLite (~> 4.0)
+  - SDWebImage (~> 3.7.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  CHTCollectionViewWaterfallLayout: 1a8da4fc662702cbddda8926ced266036a829f84
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJExtension: 4b8a628ec7764a4b3c6c0e7261ec0687cf32ff20
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  PPHelpMe: 243c40d2fad33ebdcc6b158c0db54893e0cc2d14
+  PPRevealSideViewController: 2eefff99d726e145da229ae66a19247dbaeddad3
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+
+COCOAPODS: 0.37.1
